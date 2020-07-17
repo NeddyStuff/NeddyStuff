@@ -1,0 +1,92 @@
+	body { /* I will replace the color once Neddy sends me it. Lazy bastard..*/
+		background-image: url("blurry6.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+	p {
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		font-family: Roboto;
+		text-shadow: 2px 2px 7px black;
+	}
+	
+	p2 {
+		color: white;
+		font-size: 15px;
+		font-family: Roboto;
+		text-shadow: 2px 2px 7px black;
+	/* text-align: lol no; */
+	}
+	
+	h1 {
+		color: white;
+		text-align: center;
+		font-size: 40px;
+		font-family: Roboto;
+		text-shadow: 2px 2px 7px black;
+	}
+	
+	h2 {
+		color: white;
+		text-align: center;
+		font-size: 30px;
+		font-family: Roboto;
+		text-shadow: 2px 2px 7px black;
+	}
+	
+	h3 {
+		color: white;
+		font-size: 40px;
+		font-family: Roboto;
+		text-shadow: 2px 2px 7px black;
+	}
+	
+	h4 {
+		color: white;
+		font-size: 30px;
+		font-family: Roboto;
+		text-shadow: 2px 2px 7px black;
+	}
+	
+	a {
+		color: rgb(148, 189, 245, 0.3);
+		font-size: 15;
+		font-family: Roboto;
+	}
+	
+	.buttonDiv {
+		background-color: rgb(0, 0, 0, 0.2);
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.button {
+		background-color: rgb(0, 0, 0, 0.4);
+		border: none;
+		color: white;
+		padding: 20px 37px; 
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		font-family: Roboto;
+		transition-duration: 0.4;
+	}
+
+	.button1:hover {
+		transition-duration: 0.4;
+		color: black;
+		background-color: rgb(255, 255, 255, 0.4);
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	@font-face {
+		font-family: "Roboto";
+		src: url("roboto-regular-webfont.woff");
+		src: url("roboto-regular-webfont.woff") format("woff"),
+		url("roboto-regular-webfont.ttf") format("truetype"),
+	}
+
+	
